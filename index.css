@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f172a;
+}
+
+nav {
+    height: 10vh;
+    background-color: #5b21b6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav  a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#content {
+    display: block;
+    width: 40%;
+    margin: auto;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.angle-input {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0 20px 0;
+    padding: 5px 0 5px 0;
+    background-color: #bfdbfe;
+    border: none;
+}
+
+#is-triangle-btn {
+    width: 100.5%;
+    text-align: center;
+    padding: 8px 0 8px 0;
+    background-color: #6b21a8;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+#output {
+    text-align: center;
+    margin-top: 10px;
+}
+
